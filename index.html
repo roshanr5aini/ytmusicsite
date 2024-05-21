@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YT Music Streaming</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>YT Music Streaming</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search for music...">
+            <button id="searchButton">Search</button>
+        </div>
+        <div id="player"></div>
+        <div class="player">
+            <div id="controls" class="controls">
+                <button id="backButton">Back</button>
+                <button id="playPauseButton">Play</button>
+                <button id="nextButton">Next</button>
+                <button id="downloadButton">Download</button>
+            </div>
+            <div id="progress">
+                <progress id="progressBar" value="0" max="100"></progress>
+            </div>
+            <div id="timeInfo">
+                <span id="currentTime">0:00</span> / <span id="totalDuration">0:00</span>
+            </div>
+            <div id="playStatus">Paused</div>
+        </div>
+        <ul id="playlist"></ul>
+    </div>
+    <div class="topnav">
+        <span id="menuButton" class="menu-icon">&#9776;</span>
+        <div id="navLinks" class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    <div id="about" class="content-section">
+        <h2>About Us</h2>
+        <p>Welcome to my YT Music Streaming ! IM passionate about providing you with the best music experience possible. MY site allows you to search for and play your favorite songs directly from YouTube. Enjoy seamless playback, create your own playlists, and explore new music every day.</p>
+        <p>my mission is to make music accessible to everyone, everywhere. Whether you're at home, at work, or on the go, you can enjoy your favorite tunes with ease. We believe in the power of music to bring people together and uplift their spirits.</p>
+        <p>NOTE: Downlaod option Not working Now</p>
+        <p>Thank you for choosing my site. We hope you have a great time exploring and listening to your favorite music!</p>
+    </div>
+    <div id="contact" class="content-section">
+        <h2>Contact</h2>
+        <p>You can reach out to the web developer through the following social media platforms:</p>
+        <ul class="social-media">
+            <li><a href="https://x.com/roshan___saini?s=08" target="_blank">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/roshan-saini-b0519a263/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/roshanr5aini" target="_blank">GitHub</a></li>
+        </ul>
+    </div>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js" defer></script>
+</body>
+</html>

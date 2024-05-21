@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+.player {
+    margin-top: 20px;
+}
+
+.controls button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: darkgreen;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: green;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.topnav .menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    padding: 14px 20px;
+}
+
+.nav-links {
+    display: none;
+}
+
+.nav-links.show {
+    display: block;
+}
+
+.nav-links a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.content-section {
+    display: none;
+    padding: 20px;
+}
+
+.content-section.show {
+    display: block;
+}
+
+#about {
+    margin-top: 60px;
+}
+
+#contact {
+    margin-top: 60px;
+}
+
+.social-media {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+#progress {
+    margin-top: 10px;
+}
+
+#timeInfo {
+    margin-top: 10px;
+}
+
+#playStatus {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.playlist-item {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease; /* Add transition for smoother effect */
+}
+
+.playlist-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Adjust shadow on hover */
+}
+
+.current-song {
+    background-color: #555; /* Change background color to indicate the current song */
+    color: white; /* Change text color for better contrast */
+}
